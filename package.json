@@ -1,0 +1,16 @@
+{
+  "name": "treemap",
+  "version": "1.0.0",
+  "description": "freecodecamp data visulaization project work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "treemap",
+    "freecodecamp",
+    "d3"
+  ],
+  "author": "OwenA",
+  "license": "ISC"
+}
