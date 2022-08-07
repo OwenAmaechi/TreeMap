@@ -1,0 +1,57 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main_heading {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-bottom: -15px;
+}
+.sub_heading {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.container {
+}
+
+#canvas {
+	/* padding: 10px; */
+	background-color: #2f4a6d;
+	/* background-color: #008080; */
+
+	border-radius: 5px;
+	min-width: 1000px;
+	min-height: 600px;
+}
+
+#legend {
+	background-color: #2f4a6d;
+	margin: 10px;
+	padding: 10px;
+	height: 300px;
+	width: 150px;
+}
+.legend-item {
+	width: 40px;
+	height: 40px;
+}
+.legend-text {
+	fill: white;
+}
+#tooltip {
+	position: absolute;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	background-color: rgba(17, 17, 17, 0.7);
+	box-shadow: rgba(81, 81, 236, 0.35) 0px 5px 15px;
+	pointer-events: none;
+	visibility: hidden;
+}
